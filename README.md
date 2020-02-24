@@ -28,7 +28,7 @@ pip sürümünü güncelleyin
 
 => pip3 install --upgrade pip
 
-- Collecting pip
+-- Collecting pip
 [...]
 Successfully installed pip-9.0.1
 

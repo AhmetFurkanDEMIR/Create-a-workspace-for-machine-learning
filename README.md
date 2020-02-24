@@ -53,3 +53,21 @@ Bu ortamı her etkinleştirmek istediğinizde aşağıdaki komutları kullanacks
 
 => source env/bin/activate
 
+ortama eriştiğinizde komut satırınız " (env) demir@demir:~$  " şeklinde gözükecektir. başına (env) gelecek.
+
+------------------------------
+
+# Ortama yeni kütüphaneler kurmak
+
+=> pip3 install jupyter
+
+- Collecting jupyter
+Downloading jupyter-1.0.0-py2.py3-none-any.whl
+[...]
+
+jupyter, numpy, pandas, keras, pyqt5 gibi gibi kütüphaneleri kurabilirsiniz.
+
+ve her yükleme sonunda kütüphaneleri ortama dahil etmelisiniz:
+
+=> python3 -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn"
+

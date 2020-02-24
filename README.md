@@ -8,18 +8,19 @@
 
 '-' şeklinde yazılan yazılar girilen kodun terminaldeki çıktısıdır.
 
-'#' şeklinde yazılan yazılar yorum satırıdır. açıklama içindir, koda dahil değildir.
-
 örn:
 
 => print("ahmed")
+
 -ahmed
 
 ------------------------------
 
 # Yeni Ortamı oluşturma
 
-=> export ML_PATH="$HOME/ml"  # isterseniz yolu değiştirebilirsiniz
+=> export ML_PATH="$HOME/ml"
+
+isterseniz yolu değiştirebilirsiniz
 
 => mkdir -p $ML_PATH
 
@@ -71,3 +72,7 @@ ve her yükleme sonunda kütüphaneleri ortama dahil etmelisiniz:
 
 => python3 -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn"
 
+------------------------------
+
+Bu şekilde sanal çalışma alanı oluşturarak daha verimli makine öğrenmesi projeleri yazabilirsiniz,
+ve herhangi bir şekilde çakışan, hata veren kütüphaneleriniz varsa bu ortamda test ediniz.

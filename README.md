@@ -6,13 +6,13 @@
 
 '=>' şeklinde yazılan kodlar terminale girilecektir.
 
-'-' şeklinde yazılan yazılar girilen kodun terminaldeki çıktısıdır.
+'--' şeklinde yazılan yazılar girilen kodun terminaldeki çıktısıdır.
 
 örn:
 
 => print("ahmed")
 
--ahmed
+-- ahmed
 
 ------------------------------
 
@@ -34,7 +34,7 @@ Successfully installed pip-9.0.1
 
 => pip3 install --user --upgrade virtualenv  # izole bir ortam oluşturmak için pip komutunu çalıştırarak virtualenv'i yükledik
 
-- Collecting virtualenv
+-- Collecting virtualenv
 [...]
 Successfully installed virtualenv
 
@@ -62,7 +62,7 @@ ortama eriştiğinizde komut satırınız " (env) demir@demir:~$  " şeklinde g�
 
 => pip3 install jupyter
 
-- Collecting jupyter
+-- Collecting jupyter
 Downloading jupyter-1.0.0-py2.py3-none-any.whl
 [...]
 
